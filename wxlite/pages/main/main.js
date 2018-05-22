@@ -8,13 +8,7 @@ Page({
     canShow: 0,
     tapTime: '',		// 防止两次点击操作间隔太快
     entryInfos: [
-      { icon: "../Resources/liveroom.png", title: "手机直播", desc: "<live-room>", navigateTo: "../live-phone/roomlist/roomlist" },
-      { icon: "../Resources/liveroom.png", title: "PC直播", desc: "<live-room>", navigateTo: "../live-pc/roomlist/roomlist" },
-      { icon: "../Resources/doubleroom.png", title: "双人通话", desc: "<rtc-room>", navigateTo: "../doubleroom/roomlist/roomlist" },
-      { icon: "../Resources/multiroom.png", title: "多人通话", desc: "<rtc-room>", navigateTo: "../multiroom/roomlist/roomlist" },
-      { icon: "../Resources/push.png", title: "RTMP推流", desc: "<live-pusher>", navigateTo: "../push/push" },
-      { icon: "../Resources/play.png", title: "直播播放", desc: "<live-player>", navigateTo: "../play/play" },
-      { icon: "../Resources/edu_mini.png", title: "互动课堂", desc: "<webrtc-room>", navigateTo: "../webrtcroom/roomlist/roomlist"}
+      { icon: "../Resources/doubleroom.png", title: "视频面试", desc: "<面试官发起>", navigateTo: "../doubleroom/roomlist/roomlist" }
     ]
   },
 

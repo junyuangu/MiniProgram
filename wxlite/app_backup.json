@@ -17,7 +17,10 @@
         "pages/live-pc/roomlist/roomlist",
         "pages/live-pc/room/liveroom",
         "pages/live-phone/room/liveroom",
-        "pages/live-pc/roomname/roomname"
+        "pages/live-pc/roomname/roomname",
+        "pages/webrtcroom/room/room",
+        "pages/webrtcroom/roomlist/roomlist",
+        "pages/webrtcroom/roomname/roomname"
     ],
     "networkTimeout": {
         "request": 60000

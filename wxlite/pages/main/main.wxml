@@ -2,7 +2,7 @@
  <!-- <view class="mainUI"  style="background-image: url(/pages/Resources/bg.png);">  -->
  <view class="mainUI"> 
   <view class='tips'>
-    <text>以下将展示小程序互动音视频能力，由腾讯云提供技术支持</text>
+    <text>视频房间</text>
   </view>
   <view class='guide-box'>
     <view wx:for="{{entryInfos}}" wx:key="*this" id="{{index}}" class='guide' bindtap='onEntryTap'>
